@@ -8,3 +8,7 @@ Efter att ha kodat hemsidan och försökt få till dessa så kunde jag med hjäl
 
 2.5.3(A) kunde jag sedan se om det funkade via denna hemsida https://pagespeed.web.dev/report?url=https%3A%2F%2Fanndreasan.github.io%2F%23&form_factor=desktop under Godkända granskningar.
 I filen index.html kan man se kommentarer på dom 2 punkterna. (finns på rad 29,50,91 och dom kommentarerna gäller då på alla sidor och knappar.)
+
+Webbriktlinjer källa:
+https://webbriktlinjer.se/riktlinjer/162-mojliggor-roststyrning-av-knappar-och-kontroller/
+https://webbriktlinjer.se/riktlinjer/126-tillrackliga-kontraster/
