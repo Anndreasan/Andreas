@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/> 
+    <title>Portfolio</title>
+</head>
+<!--Ladda ned cv knappen ska kopplas till mitt cv för en pdf neddladdning-->
+<!--På ladda ned CV knappen så är det bara den vänstra delen som reagerar när man hoovrar över med musen i desktop läge, vet inte varför det är så-->
+<body>
+    <section>
+    <div class="hero" id="hem">       
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#hem" href="index.html">Hem</a>
+                  <a href="#om mig" href="Om mig.html">Om mig</a>
+                  <a href="#projekt" href="Projekt.html">Projekt</a>
+                  <a href="#kontakt" href="Kontakt.html">Kontakt</a> 
+                  <a href="#hem" href="index.html">CV</a>             
+                </div>
+            </div>
+              <span style="font-size:45px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              <div id="clock1"></div>
+              <div id="clock"></div>
+        <div class="detel">
+            <h1>Hej,</h1> <!--1.4.3(AA) Kontrasten mellan text och bakgrund ska vara tillräcklig bra för personer med nedsatt syn -->
+            <h1>Mitt namn är Andreas <span>Andersson</span></h1>
+            <p>Jag pluggar till UX Designer med inriktning kravkompetens
+            <p>Kika in under fliken projekt för att ta del av mitt arbete</p>
+            <br>
+            <button class="btn">Ladda ned CV</button>
+        </div>
+    </div>
+        <div class="image">
+            <img src="Bilder/shape.png" class="shape.png" alt="orange bubblor">
+        </div>
+        <div class="image2">
+            <img src="Bilder/jag.png" class="jag.jpg" alt="profil bild">
+        </div>
+    </div>
+    </section>
+    <br>
+
+    <!-- På mer info om mig så valde jag att köra en kort text med en profilbil vid sidam om, för att mer info finns på ladda ned CV knappen eller kommer finnas framöver.
+    Använder mig utav H2 som stor rubrik och H3 som en under rubrik för utbildningar och kurser för tydlighet om vad som är huvudrubrik -->
+
+    <section class="subsection" id="om mig"> <!--1.4.3(AA) Kontrasten mellan text och bakgrund ska vara tillräcklig bra för personer med nedsatt syn -->
+        <div class="Information"> 
+            <br><br>
+            <h2>Om mig</h2> 
+            <br><br>
+            <p>Hej, Andreas heter jag och är 28 år. Jag har valt att börja plugga Ux design och är inne på min andra termin.</p>
+            <p>Jag är en kreativ person som gillar färg och form.</p>
+            <p>Har varit med och tagit fram en webbplats/app för Mathem.</p>
+            <p>Webbplatsen baserades på ordrar och skulle utformas så att personal kunde plocka dom i en logisk ordning.</p>
+            <p>Webbplatsen skulle fungera både på dator och mobila enheter.</p>
+            <p>Färg och layout fick jag stå för, men inte själva programmeringen.</p>
+            <p>Klicka på <strong>ladda ned CV</strong> för mer information på förstasidan.</p>
+            <br>
+            <h3>Utbildningar och kurser</h3>
+            <p>- Kvalitet, miljö och hållbarhet</p>
+            <p>- Företagsekonomi</p>
+            <p>- Grundläggande Logistik</p>
+            <p>- Kommunikation</p>
+        </div>
+        <div class="headshot-container">
+            <img class="headshot" src="Bilder/om mig.jpg" alt="om mig profilbild">
+        </div>
+    </section>
+    <br>
+
+    <!-- Projekten är enbart gjorda i figma så därför kopplas dom inte till en sida när man trycker på mer info. I framtiden när de blir klara ska man kunna komma till en ny sida där det står 
+    mer om projektet kanske någon bild sen en länk till den hemsidan. --> 
+    <!--projekt korten är gjorda i 4 st kort ståendes bredvid varandra, en tydlig bild, rubrik, kort sammanfattning och med en knapp som är stylad i CSS-->
+
+    <section class="sub-section-alternative" id="projekt">
+        <h1>Projekt</h1>
+        <br>
+        <br>
+        <div class="prodject-container">
+            <div class="projekt-kort">
+                <img class="projekt-bild" src="Bilder/projekt ett.png" alt="projekt bild ett"/>
+                <br><br>
+                <h3> Coffee shop</h3>
+                <br>
+                <p class="subtext"> En kaffe app, första designen som togs fram i början av utbildningen.</p>
+                <br><br>
+                <button class="btn">Mer info</button> <!--2.5.3(A) Alla knappar har tydliga namn som hjälpmedlen på hemsidan, att dom anges i rätt kod så att dom som behöver skärmläsare får upp rätt information på knapparna -->
+            </div>
+            <div class="projekt-kort">
+                <img class="projekt-bild" src="Bilder/projekt två.png" alt="projekt bild två"/>
+                <br><br>
+                <h3> Sweden mobile sound</h3>
+                <br>
+                <p class="subtext"> Ett pågående projekt för ett ljud och ljus företag.</p>
+                <br><br>
+                <button class="btn">Mer info </button>
+            </div>
+            <div class="projekt-kort">
+                <img class="projekt-bild" src="Bilder/projekt tre.png" alt="projekt bild tre"/>
+                <br><br>
+                <h3> Feel the music</h3>
+                <br>
+                <p class="subtext"> Första designen som jag tog fram och gjorde i Figma.</p>
+                <br><br>
+                <button class="btn">Mer info</button>
+            </div>
+            <div class="projekt-kort">
+                <img class="projekt-bild" src="Bilder/projekt fyra.png" alt="projekt bild fyra"/>
+                <br><br>
+                <h3> L&R Andersson Htgr</h3>
+                <br>
+                <p class="subtext"> Ett pågående projekt för en blomstergrossist.</p>
+                <br><br>
+                <button class="btn">Mer info</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- kontaktuppgifter -->
+
+    <section class="section-alternative" id="kontakt">
+        <div class="Kontakt">
+            <br><br><br><br><br><br>
+            <h1>Kontaktuppgifter</h1>
+            <br>
+            <p>Andreas Andersson</p>
+            <p>Mobil: 073 *******</p>
+            <p>E-post: Andreas_adde94@**********</p>
+        </div>
+    </section>  
+
+<!--Submit formulär, en kontakt formulär där man har möjlighet att skicka en fråga.(är ej kopplat till nån mail i dagsläget)-->
+
+    <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br>
+        <button class="btn">Submit</button>
+    </form>
+
+<!-- Sociale medier symbolerna är länkade till sina hemsidor (ej mina privata ännu förutom github) -->
+
+    <footer class="sociala-medier">
+        <div class="footer-header">
+            <div class="footer-title">
+                Copyright &copy; Andreas Andersson
+            </div>
+        </div>
+        <div class="footer-links">
+        <a href="https://sv-se.facebook.com/" target="_blank" Facebook class="footer-links">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+        </a>
+        <a href="https://github.com/Anndreasan" target="_blank" Github class="footer-links">    
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+        </a>
+        <a href="https://se.linkedin.com/" target="_blank" Linkedin class="footer-links">   
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+        </div>
+    </footer>
+
+<!--Popup funktion, en kort liten välkomstext som navigerar direkt till kontakt formuläret-->
+
+    <div class="chat-container" id="chat">
+        <div class="popup-container">
+            <div class="popup">
+                <br>
+              <p>Hej välkommen till min sida! Vid frågor så använd frågeformuläret på kontaktsidan.</p>
+              <span class="close-btn">&times;</span>
+            </div>
+        </div>
+<a href='#' class="scroll" title="scroll to top"></a>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.hero{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background: #000000;
+}
+/*Detta var för den gamla menyn*/
+/* nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ffa500;
+} */
+
+/*detel */
+
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-right: 4%;
+}
+
+.detel h1{
+    font-size: 40px;
+    color: #fdfbfb;
+    margin-bottom: 20px;
+}
+
+/* span{
+    color: #ffa500;
+} */
+
+.detel p{
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+
+.detel a:hover{
+    color: #171515;
+    background-color: #ffa600;
+}
+
+/*Images */
+
+.image{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.image img{
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 1;
+}
+
+.image2{
+    width: 80%;
+    height: 70%;
+    position: absolute ;
+    bottom: 0;
+    right: 100px;
+}
+
+.image2 img{
+    height: 70%;
+    position: absolute;
+    left: 60%;
+    bottom: 1;
+}
+
+/*Projekt */
+
+.projekt-kort{
+    width: 280px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(189, 185, 185);
+    margin: 10px;
+}
+
+.prodject-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.projekt-bild{
+    margin-top: 0px;
+    width: 280px;
+    height: 200px;
+    border-radius: 0px;
+}
+
+/*subsection */
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: #fcfdff;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.subsection{
+    background-color: #8D8DE1;
+    line-height: 25px;
+    height: 700px;
+    box-sizing: border-box;
+}
+
+.subsection p {
+    margin-left: 8%;
+    
+}
+
+.subsection h2{
+    margin-left: 8%;
+
+}
+
+.subsection h3{
+    margin-left: 8%;
+    
+}
+
+.sub-section p {
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.section-alternative{
+    text-align: center;
+    color: #000000;
+    height: 300px;
+}
+
+/*button */
+
+.btn {
+    background-color: rgb(252, 251, 251);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 8px 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fcfdff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.headshot {
+    height: 40vh;
+    position: relative;
+    top: -350px;
+    left: 75%;
+    border-radius: 150px;
+    
+}
+
+/*footer */
+
+.sociala-medier{
+    height: 50px;
+    width: 100%;
+    background-color: #0e0e0e;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sociala-medier > .footer-header > .footer-title {
+     margin-bottom: 1px; 
+     font-size: 13px;
+     align-items: center;
+}
+
+
+.footer-links { 
+    color:#ffffff;
+    flex-direction:row;
+    display:flex;
+    justify-content: center;
+    text-decoration:none;
+    text-align: center;
+}
+
+/*scroll arrow*/
+
+:root { scroll-behavior: smooth; }
+
+.scroll {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+
+  }
+  .scroll:hover {
+    opacity: 0.8;
+  }
+  .scroll:focus {
+    opacity: 0.9;
+  }
+  .scroll:active {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 700px) {
+  .detel, .body, .image, .image2 {   
+    flex-direction: column;
+    
+  }
+}
+
+@media (max-width: 700px){
+  .detel .h1 {
+      font-size: 20px;
+      color: #fdfbfb;
+      margin-bottom: 20px; 
+      
+  }
+}
+
+/*formulär*/
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 90px;
+    box-shadow: 5px 5px 20px rgb(189, 185, 185);
+  }  
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+
+  @media screen and (max-width: 840px) {
+    .image, .image2, .headshot-container {   
+     display: none;
+     
+   }
+ }
+
+  /* hamburgare meny*/
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.4s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #ffa500;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  span{
+    color: #ffa500;
+}
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  /* klocka*/
+  #clock {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    right: 0;
+    color: #fcfdff;
+  }
+
+  #clock1 {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fcfdff;
+  }
+      
+/*Välkommen funktion*/
+.popup-container {
+    position: fixed;
+    bottom: 40px;
+    right: 5px;
+    display: none;
+  }
+  
+  .popup {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: gray;
+  }
+  
